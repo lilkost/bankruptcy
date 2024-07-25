@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="local/templates/mains/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="local/templates/mains/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="local/templates/mains/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="local/templates/mains/assets/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="local/templates/mains/assets/css/style.min.css">
     <link rel="stylesheet" href="local/templates/mains/assets/css/media.min.css">
     <script src="local/templates/mains/assets/js/libs.min.js" defer></script>
@@ -44,6 +50,11 @@
                             Бесплатный звонок
                         </button>
                     </div>
+                    <button class="burger" type="button" aria-label="Открыть модальное окно">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
                 </div>
                 <div class="header__row header__row_center">
                     <div class="header__inner container">
@@ -123,9 +134,9 @@
                     <ul class="banner__list">
                         <li class="banner__item">Опыт практической деятельности более 12 лет</li>
                         <li class="banner__item">Член ассоциации ВАУ «Достояние»</li>
-                        <li class="banner__item">Член ассоциации юристов России с 2016 года</li>
+                        <li class="banner__item">Член ассоциации юристов России<br> с 2016 года</li>
                     </ul>
-                    <button class="banner__button btn_red btn open-modal" type="button">
+                    <button class="banner__button btn_red btn open-modal" type="button" data-da=".banner__inner, 568, last">
                         Списать мои долги
                     </button>
                 </div>
@@ -364,16 +375,16 @@
                 </h2>
                 <ul class="advantages__list">
                     <li class="advantages__item">
-                        <h3 class="advantages__item-title">прекращение </h3>
+                        <h3 class="advantages__item-title">прекращение</h3>
                         <p class="advantages__item-text text">
-                            начисления пени и штрафов со стороны<br> кредиторов
+                            начисления пени и штрафов со стороны<br> кредиторов
                         </p>
                     </li>
                     <li class="advantages__item">
                         <h3 class="advantages__item-title">завершение </h3>
                         <p class="advantages__item-text text">
-                            принудительного взысканиясо стороны<br>
-                            судебных приставов и коллекторов
+                            принудительного взысканиясо стороны<br>
+                            судебных приставов и коллекторов
                         </p>
                     </li>
                     <li class="advantages__item">
@@ -385,19 +396,19 @@
                     <li class="advantages__item">
                         <h3 class="advantages__item-title">списание</h3>
                         <p class="advantages__item-text text">
-                            долгов по кредитам, займам, коммунальным<br> платежам и другим обязательствам
+                            долгов по кредитам, займам, коммунальным<br> платежам и другим обязательствам
                         </p>
                     </li>
                     <li class="advantages__item">
                         <h3 class="advantages__item-title">улучшение</h3>
                         <p class="advantages__item-text text">
-                            финансового положения и возможность<br>начать нормальную жизнь без переживаний
+                            финансового положения и возможность<br> начать нормальную жизнь без переживаний
                         </p>
                     </li>
                     <li class="advantages__item">
                         <h3 class="advantages__item-title">сохранение</h3>
                         <p class="advantages__item-text text">
-                            прав на льготы, социальные выплаты и другие<br> виды государственной поддержки
+                            прав на льготы, социальные выплаты и другие<br> виды государственной поддержки
                         </p>
                     </li>
                 </ul>
@@ -559,7 +570,7 @@
                     </li>
                     <li class="excellence__item">
                         <h3 class="excellence__item-title">
-                            Прозрачные условия<br>работы
+                            Прозрачные условия<br> работы
                         </h3>
                         <p class="excellence__item-text text">
                             Стоимость ведения дела о банкротстве<br>
@@ -830,9 +841,10 @@
                 </button>
             </form>
         </div>
-        <div class="footer__decor">
+        <picture class="footer__decor" data-da=".footer__body, 568, first">
+            <source srcset="local/templates/mains/assets/images/man-footer-min.png" media="(max-width: 460px)">
             <img src="local/templates/mains/assets/images/man-footer.png" alt="">
-        </div>
+        </picture>
     </div>
     <div class="footer__inner">
         <div class="container">
