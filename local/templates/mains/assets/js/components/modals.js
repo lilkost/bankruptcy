@@ -1,6 +1,7 @@
 const modals = () => {
     const modalToggleOpen = (modal, modalInner) => {
         modal.classList.toggle('is-open');
+
         setTimeout(()=> {
             modalInner.classList.toggle('is-open');
         },300);

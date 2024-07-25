@@ -5,6 +5,7 @@ const mobileMenu = () => {
     const toggleMenuOpen = () => {
         menu.classList.toggle('is-open');
         burger.classList.toggle('is-active');
+        document.querySelector('body').classList.toggle('is-overflow-hidden');
     }
 
     burger.addEventListener('click', ()=> toggleMenuOpen());
