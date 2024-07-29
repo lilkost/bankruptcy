@@ -15,7 +15,11 @@
     <link rel="stylesheet" href="local/templates/mains/assets/css/media.min.css">
     <script src="local/templates/mains/assets/js/libs.min.js" defer></script>
     <script src="local/templates/mains/assets/js/index.js" type="module"></script>
-    <link rel="stylesheet" href="local/templates/mains/assets/css/bg.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 </head>
 
 <body>
@@ -154,8 +158,8 @@
                 </div>
             </div>
         </section>
-        <section class="info info_mb">
-            <div class="info__inner container">
+        <section class="info info_mb ">
+            <div class="info__inner container animate__animated wow animate__fadeInUp">
                 <h2 class="info__title title">
                     последствия банкротства
                 </h2>
@@ -247,7 +251,7 @@
                 </ul>
             </div>
         </section>
-        <section class="slider-inner slider-inner_mb">
+        <section class="slider-inner slider-inner_mb animate__animated wow animate__fadeInRight">
             <div class="slider__top container">
                 <h2 class="slider__title title">какие долги можно списать</h2>
                 <div class="slider__control">
@@ -346,7 +350,7 @@
                 Списать мои долги
             </button>
         </section>
-        <section class="bankruptcy-conditions bankruptcy-conditions_mb">
+        <section class="bankruptcy-conditions bankruptcy-conditions_mb animate__animated wow animate__fadeInUp">
             <div class="bankruptcy-conditions__top">
                 <div class="container">
                     <h2 class="bankruptcy-conditions__title title">
@@ -369,8 +373,8 @@
                 </li>
             </ul>
         </section>
-        <section class="advantages">
-            <div class="advantages__inner container">
+        <section class="advantages ">
+            <div class="advantages__inner container animate__animated wow animate__fadeInUp">
                 <h2 class="advantages__title title">
                     преимущества банкротства физических лиц
                 </h2>
@@ -415,7 +419,7 @@
                 </ul>
             </div>
         </section>
-        <div class="procedure">
+        <div class="procedure animate__animated wow animate__fadeInRight">
             <div class="procedure__inner container">
                 <ul class="procedure__list">
                     <li class="procedure__item">
@@ -445,7 +449,7 @@
             </div>
         </div>
         <div class="table">
-            <div class="table__inner container">
+            <div class="table__inner container animate__animated wow animate__fadeInUp">
                 <div class="table__top">
                     <div class="table__top-col">Списан долг</div>
                     <div class="table__top-col">поступил в работу</div>
@@ -528,7 +532,7 @@
             </div>
         </div>
         <section class="excellence excellence_mb">
-            <div class="excellence__inner container">
+            <div class="excellence__inner container animate__animated wow animate__fadeInUp">
                 <h2 class="excellence__title title">
                     Наши преимущества 
                 </h2>
@@ -593,7 +597,7 @@
                 </ul>
             </div>
         </section>
-        <section class="service service_mb">
+        <section class="service service_mb animate__animated wow animate__fadeIn ">
             <div class="service__top container">
                 <h2 class="service__title title">Услуги банкротства</h2>
             </div>
@@ -811,7 +815,10 @@
             </div>
         </section>
     </main>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script >
+    new WOW().init();
+</script>
 <footer class="footer">
     <div class="footer__top container">
         <div class="footer__top-box">
@@ -842,7 +849,7 @@
                 </button>
             </form>
         </div>
-        <picture class="footer__decor" data-da=".footer__body, 568, first">
+        <picture class="footer__decor animate__animated wow animate__fadeIn" data-da=".footer__body, 568, first">
             <!-- <source srcset="local/templates/mains/assets/images/man-footer-min.png" media="(max-width: 460px)"> -->
             <img src="local/templates/mains/assets/images/man-footer.png" alt="">
         </picture>
